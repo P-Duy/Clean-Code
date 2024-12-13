@@ -1,0 +1,21 @@
+# Loại trừ các file môi trường
+.env
+.env.local
+.env.*.local
+.venv
+
+# Loại trừ các thư mục phụ thuộc vào môi trường
+node_modules/
+bower_components/
+
+# Loại trừ các thư mục của Python
+venv/
+*.pyc
+
+# Loại trừ các tệp IDE (Visual Studio Code, JetBrains, v.v.)
+.vscode/
+.idea/
+
+# Loại trừ các tệp build
+dist/
+build/
